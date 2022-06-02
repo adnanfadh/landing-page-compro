@@ -1,0 +1,13 @@
+.preloader{
+  background-color:#fff;
+  position: fixed;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.loader{
+  width: 55%;
+  height: auto;
+};

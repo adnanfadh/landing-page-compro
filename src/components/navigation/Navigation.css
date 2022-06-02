@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+.nav{
+    background-color: transparent;  
+    max-height: 100px;
+    min-width: 100%;
+    padding: 0 50px 0 50px;
+    position: sticky;
+    top: 0;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* animation: transitionWebIn 1s;
+    animation-timing-function: ease; */
+    z-index: 100;
+}
+.nav.active{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+
+}
+.nav-logo{
+    max-width: 100px;
+    height: 100%;
+};
+/* @keyframes transitionWebIn{
+    from{
+      opacity: 0;
+      top: -100px;
+    }to{
+      opacity: 1;
+      top: 0px;
+    }
+  } */

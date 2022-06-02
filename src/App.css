@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* animation: transitionWebIn 0.5s; */
 }
 
 .App-logo {
@@ -34,5 +35,28 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.main-content{
+    animation: transitionWebIn 0.5s;
+}
+
+.main-content .content-banner{
+  /* position: fixed; */
+  top: 100%;
+}
+.main-content .content-about{
+  position: absolute;
+}
+
+@keyframes transitionWebIn{
+  from{
+    opacity: 0;
+    transform: rotateX(-20deg);
+  }to{
+    opacity: 1;
+    transform: rotateX(0deg);
   }
 }

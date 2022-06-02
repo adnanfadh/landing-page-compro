@@ -1,0 +1,42 @@
+.footer{
+    height: 25vh;
+    background-color: #222222;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 115px 100px;
+}
+.footer
+.footer-contact-service{
+    color:#cccccc;
+    font-weight: 700;
+}
+.contact-service-icon{
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:0.5em;
+    font-size:1.5em;
+}
+.contact-service-title{
+    font-weight: 900;
+    font-size:1.7em;
+}
+.footer-copyright{
+    color:#cccccc;
+    width:30%;
+
+}
+.copyright-title{
+    font-weight: 900;
+    font-size:20px;
+}
+.copyright-text p{
+    font-size:13px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+}
