@@ -22,9 +22,9 @@ function Navigation() {
         <div>
             <img src={logo} alt="Logo" className="nav-logo"/>
         </div>
-        <div>
+        {/* <div>
           Navigation
-        </div>
+        </div> */}
     </div>
   )
 }

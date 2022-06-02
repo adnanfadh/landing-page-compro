@@ -10,7 +10,8 @@ function Footer() {
     <div className="footer">
         <div className="footer-contact-service">
             <div className="contact-service-icon">
-                <FaInstagram /><FaTiktok /><FaFacebookF /><FaYoutube />
+            <a href="https://www.instagram.com/pancanarasidigital/" target="_blank"><FaInstagram style={{color: "#cccccc"}}/></a>
+                <FaTiktok style={{color: "#cccccc"}}/><FaFacebookF style={{color: "#cccccc"}}/><FaYoutube style={{color: "#cccccc"}}/>
             </div>
             <div className="">
                 <img src={PinLoc}  style={{height: '2.5em'}}/>

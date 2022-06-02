@@ -47,9 +47,9 @@
   /* position: fixed; */
   top: 100%;
 }
-.main-content .content-about{
+/* .main-content .content-about{
   position: absolute;
-}
+} */
 
 @keyframes transitionWebIn{
   from{

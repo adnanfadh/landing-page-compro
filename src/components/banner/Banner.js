@@ -10,10 +10,18 @@ function Banner() {
     <div className="banner">
         <div className="banner-sosmed">
             <div className="sosmed">
-              <FaInstagram className="sosmed-icon"/>
-              <FaTiktok className="sosmed-icon"/>
-              <FaFacebookF className="sosmed-icon"/>
-              <FaYoutube className="sosmed-icon"/>
+              <a href="https://www.instagram.com/pancanarasidigital/" target="_blank">
+                <FaInstagram className="sosmed-icon"/>
+              </a>
+              <a href="#" target="_blank">
+                <FaTiktok className="sosmed-icon"/>
+              </a>
+              <a href="#" target="_blank">
+                <FaFacebookF className="sosmed-icon"/>
+              </a>
+              <a href="#" target="_blank">
+                <FaYoutube className="sosmed-icon"/>
+              </a>
             </div>
             <div>
               <span className="dot"></span>

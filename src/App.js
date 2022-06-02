@@ -54,7 +54,7 @@ function App() {
               <div className="content-banner">
                 <Banner />
               </div>
-              <div className="content-about" style={{top:'100'}}>
+              <div className="content-about">
                 <AboutUs />
               </div>
               <Service />
